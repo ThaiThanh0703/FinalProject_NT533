@@ -1,0 +1,82 @@
+Cách 1: Cài đặt theo quick-start
+
+git clone https://github.com/apache/openwhisk.git
+tải wsk cli
+sudo mv [full path to downloaded wsk executable] /usr/local/bin/wsk
+wsk property set --apihost 'http://172.17.0.1:3233' --auth '23bc46b1-71f6-4ed5-8c54-816aa4f8c502:123zO3xZCLrMN6v2BKK1dXYFpXlPkccOFqm12CdAsMgRU4VrNZ9lyGVCGuMDGIwP'
+cd openwhisk
+sudo su
+./gradlew core:standalone:bootRun
+
+Vấn đề: Lỗi -2-
+
+Cách 2: Cài đặt qua docker quick-start
+
+Vấn đề: Lỗi -3-, -4-
+
+
+
+
+Lỗi -1- Could not get lock /var/lib/apt/lists/lock. It is held by process 1203 (packagekitd)
+https://ubuntuhint.wordpress.com/2021/07/27/how-to-fix-e-could-not-get-lock-var-lib-apt-lists-lock-it-is-held-by-process-143278-apt-get-in-ubuntu/
+Giải quyết tại method 1
+
+
+Lỗi -2- error: Unable to obtain API build information: Get "http://172.17.0.1:3233/api/v1": dial tcp 172.17.0.1:3233: connect: connection refused
+chưa giải quyết
+
+Lỗi -3- Error in process <0.739.0> with exit value:
+openwhisk-db-1          | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_u......
+chưa giải quyết
+
+
+Lỗi -4- ERROR:  waiTimed outting for docker services to launch. khi make quick-start
+
+
+
+
+
+				Link issue
+
+https://github.com/apache/openwhisk-devtools/issues/339
+Liên quan: lỗi -4- ,chưa thử
+
+
+https://github.com/apache/openwhisk-devtools/issues/86
+|
+https://github.com/apache/openwhisk-devtools/issues/58
+Liên quan: make-props của link Serverless Computing & Fass $ openwhisk快速部 [note.txt]
+
+
+https://github.com/apache/openwhisk-devtools/pull/74/commits/fdb4b8192527de057462adb84a4fef8346dd77d3
+|
+https://stackoverflow.com/questions/51523738/mongoose-connect-doesnt-create-database-if-not-exist
+|
+https://github.com/apache/couchdb/issues/1354
+Liên quan: thông tin về lỗi -3-
+
+
+https://stackoverflow.com/questions/52437728/bash-what-is-the-difference-between-pwd-and-curdir
+Liên quan: .
+
+
+https://github.com/apache/openwhisk/tree/master/core/standalone#build
+|
+https://stackoverflow.com/questions/75511548/accessing-openwhisk-playground-ui-in-docker-compose-deployment
+Liên quan: ui của playground
+
+
+https://github.com/apache/openwhisk/issues/5336
+|
+https://github.com/aFuerst/openwhisk-caching/issues/1
+Liên quan: lỗi -2-, chưa thử
+
+
+https://github.com/apache/openwhisk/issues/32
+|
+https://github.com/apache/openwhisk-deploy-kube/issues/104
+|
+https://github.com/apache/openwhisk/pull/2535
+|
+https://github.com/apache/openwhisk/issues/3574
+Liên quan:..
