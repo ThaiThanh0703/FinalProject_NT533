@@ -63,6 +63,10 @@ Liên quan: .
 https://github.com/apache/openwhisk/tree/master/core/standalone#build
 |
 https://stackoverflow.com/questions/75511548/accessing-openwhisk-playground-ui-in-docker-compose-deployment
+|
+https://stackoverflow.com/questions/50715438/openwhisk-open-source-ui
+|
+https://stackoverflow.com/questions/72925754/im-trying-to-run-openwhisk-on-a-kubernetes-cluster-but-installation-pods-produ
 Liên quan: ui của playground
 
 
