@@ -100,3 +100,26 @@ git clone https://github.com/apache/openwhisk-devtools.git
 Không cần tải nginx, quick-start sẽ tự cài
 
 đã cài java11,8 docker engine docker desktop compose switch nginx-mới tải, chưa cài đặt, ansible, nodejs-npm
+
+
+
+
+deploy by kubernetes
+Guide: https://medium.com/@ansjin/openwhisk-deployment-on-a-kubernetes-cluster-7fd3fc2f3726
+
+Fix bug:
+
+https://stackoverflow.com/questions/59265021/unable-to-locate-package-kubectl-when-installing-the-kubectl-kubeadm-for-kuberne?fbclid=IwAR3vPmXJUJ9VKptsG1ID7h58-soTeMtwhNlTLaxgpQ1vRECJaQ9vkYhL-_4
+
+https://stackoverflow.com/questions/44698283/how-to-completely-uninstall-kubernetes?fbclid=IwAR2RSdqvUVfiTYGOkkMAzbwoPvNt9Htr6a3aHEI8gvHDCgUXBWzKWBllSbU
+
+https://redplug.tistory.com/835?fbclid=IwAR0-J9ReiOQhtuqHgrzFLTwprikbOvcZVN6nckk961XP1w7M5p3n_3sE90g
+
+https://github.com/kubernetes/kubeadm/issues/610?fbclid=IwAR1vU_14ZS9Z3BvFLfIouShmu2yGi-7vsqKjHL78gU30YVrHOq9xNuUDr-U
+
+https://linuxconfig.org/how-to-disable-swap-in-linux-for-kubernetes?fbclid=IwAR3vPmXJUJ9VKptsG1ID7h58-soTeMtwhNlTLaxgpQ1vRECJaQ9vkYhL-_4
+
+
+
+
+
